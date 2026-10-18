@@ -1,4 +1,4 @@
-![Wildstead — údolí z herního úvodu s logem a znakem](media/wildstead-header.webp)
+![Wildstead — údolí z herního úvodu s logem a erbem rodu z Habřiny](media/wildstead-header.webp)
 
 <h1 align="center">Přežij první noc. Vypěstuj si budoucnost.</h1>
 
