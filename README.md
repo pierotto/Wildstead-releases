@@ -104,16 +104,16 @@ Stáhni nový zip a starou hru jím nahraď. Rozehraná hra je uložená zvláš
 - macOS: `~/Library/Application Support/Wildstead`
 - Windows: `%APPDATA%\Wildstead`
 
-## Systémové požadavky
+## Minimální požadavky
 
 | | macOS | Windows |
 |---|---|---|
 | **Systém** | macOS 11 Big Sur nebo novější | Windows 10 nebo 11, 64bitový |
-| **Procesor** | Apple Silicon i Intel | 64bitový (x86-64) |
+| **Procesor** | Apple Silicon; Intel podporovaný, zatím nevyzkoušený | 64bitový (x86-64) |
 | **Grafika** | s podporou Metal | s podporou Vulkan nebo Direct3D 12 |
 | **Místo na disku** | přibližně 400 MB | přibližně 300 MB |
 
-*Požadavky jsou předběžné, upřesníme je podle zkušeností z bety.*
+*Požadavky jsou předběžné. Zatím je máme ověřené jen na Macu s Apple Silicon; doporučenou sestavu a potřebnou paměť doplníme podle měření během bety.*
 
 ## Na cestě k vydání
 
