@@ -81,15 +81,39 @@ Hraješ sám a offline, bez připojení k internetu. Když hru zavřeš, svět p
 
 ---
 
+## Instalace
+
+Hru stáhneš z [posledního vydání](https://github.com/pierotto/Wildstead-releases/releases/latest). Testovací verze zatím nejsou podepsané, takže se systém při prvním spuštění zeptá, jestli aplikaci důvěřuješ. Potvrdit to stačí jednou.
+
+### macOS
+
+1. Stáhni **Wildstead-macOS.zip** a rozbal ho.
+2. Přetáhni **Wildstead** do složky **Aplikace**.
+3. Spusť ho. Když macOS hlásí, že aplikaci nelze ověřit, zavři hlášku, otevři **Nastavení systému → Soukromí a zabezpečení**, sjeď dolů a u Wildsteadu klikni na **Přesto otevřít**.
+
+### Windows
+
+1. Stáhni **Wildstead-Windows.zip** a rozbal ho, třeba do Dokumentů.
+2. Ve složce **Wildstead** spusť **Wildstead.exe**.
+3. Když se objeví modré okno **Systém Windows ochránil váš počítač**, klikni na **Další informace → Přesto spustit**.
+
+### Nová verze
+
+Stáhni nový zip a starou hru jím nahraď. Rozehraná hra je uložená zvlášť, o postup nepřijdeš:
+
+- macOS: `~/Library/Application Support/Wildstead`
+- Windows: `%APPDATA%\Wildstead`
+
 ## Systémové požadavky
 
 | | macOS | Windows |
 |---|---|---|
-| **Systém** | macOS 11 Big Sur nebo novější | Upřesníme s Betou 1 |
-| **Procesor** | Apple Silicon i Intel | Upřesníme s Betou 1 |
-| **Místo na disku** | přibližně 300 MB | Upřesníme s Betou 1 |
+| **Systém** | macOS 11 Big Sur nebo novější | Windows 10 nebo 11, 64bitový |
+| **Procesor** | Apple Silicon i Intel | 64bitový (x86-64) |
+| **Grafika** | s podporou Metal | s podporou Vulkan nebo Direct3D 12 |
+| **Místo na disku** | přibližně 400 MB | přibližně 300 MB |
 
-*Požadavky jsou předběžné. Přesné hodnoty uvedeme s první betou.*
+*Požadavky jsou předběžné, upřesníme je podle zkušeností z bety.*
 
 ## Na cestě k vydání
 
